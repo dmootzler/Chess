@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#board {
+    width: 80vh;
+    height: 80vh;
+}
+
+.squareW {
+    width: 10vh;
+    height: 10vh;
+    display: inline-block;
+    vertical-align: top;
+    
+    padding: 0;
+    margin: 0;
+    
+    background-color: #dbdbdb;
+}
+
+.squareB {
+    width: 10vh;
+    height: 10vh;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    
+    background-color: #353535;
+}
+
+.piece {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    position: relative;
+    
+    width: 10vh;
+    height: 10vh;
+    text-align: center;
+    font-size: 60px;
+    color: #c6c6c6;
+    
+    top: 10vh;
+}
