@@ -36,17 +36,24 @@ body {
     justify-content: center;
     flex-direction: column;
     
+    cursor: pointer;
+    pointer-events: none;
+    
     position: absolute;
     
-    width: 10vh;
-    height: 10vh;
+    width: 8vh;
+    height: 8vh;
     text-align: center;
     font-size: 60px;
     color: #c6c6c6;
     
     top: 10vh;
     
-    border-radius: 5vh;
+    margin: 1vh;
+    
+    border-radius: 4vh;
     border-width: 2px;
     background-color: white;
+    
+    transition: all 1s;
 }
